@@ -4,7 +4,7 @@ Python :
   - " 3.7-dev "   # 3.7 rama de desarrollo
 # comando para instalar dependencias
 instalar :
-  - solicitudes de instalación de pip
+  - pip install requests
 guión :
 - python TestCynthia.py
 #hola
