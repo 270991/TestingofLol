@@ -1,10 +1,9 @@
-idioma : python
-Python :
-  - " 3.6-dev "   # 3.6 rama de desarrollo
-  - " 3.7-dev "   # 3.7 rama de desarrollo
-# comando para instalar dependencias
-instalar :
+language: python
+python:
+  - "3.6-dev"  # 3.6 development branch
+  - "3.7-dev"  # 3.7 development branch
+# command to install dependencies
+install:
   - pip install requests
-guión :
-- python TestCynthia.py
-#hola
+script:
+ - python TestCynthia.py
