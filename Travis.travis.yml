@@ -1,0 +1,9 @@
+idioma : python
+Python :
+  - " 3.6-dev "   # 3.6 rama de desarrollo
+  - " 3.7-dev "   # 3.7 rama de desarrollo
+# comando para instalar dependencias
+instalar :
+  - solicitudes de instalación de pip
+guión :
+- python TestCynthia.py
